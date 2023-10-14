@@ -1,0 +1,11 @@
+appName: pumejwebapp
+namespace: default
+
+replicas: 1
+
+configmap:
+  name: nginx-configv5
+
+image:
+  name: nginx
+  tag: stable

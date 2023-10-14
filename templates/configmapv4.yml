@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-configv4
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: {{ .Values.appName }}
+data:
+  index.html: |
+    <html>
+    <body>
+    <h1>Hello World. Version: 4. Name is Emeka Umejiofor. Got a Job recently</h1>
+    </body>
+    </html>
