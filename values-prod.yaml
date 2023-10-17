@@ -1,7 +1,7 @@
 appName: pumejwebapp
 namespace: prod
 
-replicas: 4
+replicas: 1
 
 configmap:
   name: nginx-configv4
